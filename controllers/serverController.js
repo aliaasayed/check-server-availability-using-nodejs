@@ -1,12 +1,12 @@
 const express = require("express");
 const router = express.Router();
-const findServer = require("../services/serverService")
+const serverService = require("../services/serverService")
 
 //find servers
 router.get("/find/server", function (req, res) {
-    findServer().then(data => {
-        res.send(data)
-    });
+    serverService.findServer().then(data => {
+        res.json(data)
+    }).catch(err => res.json(err));
 });
 
 
