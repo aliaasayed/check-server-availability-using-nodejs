@@ -1,1 +1,1 @@
-# check-server-availability-using-nodejs
+# server-availability-using-nodejs
