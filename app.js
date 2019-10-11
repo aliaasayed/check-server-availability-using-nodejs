@@ -15,3 +15,5 @@ server.use("/", serverRouter);
 server.listen(3000, function () {
   console.log("Starting listen...");
 });
+
+module.exports = server;
