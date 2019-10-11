@@ -1,7 +1,7 @@
 var serverData = [
     {
         "url": "http://doesNotExist.bosta.co/",
-        "priority": 10
+        "priority": 1
     },
     {
         "url": "http://bosta.co/",

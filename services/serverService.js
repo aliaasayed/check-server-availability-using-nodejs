@@ -26,6 +26,7 @@ module.exports = {
                                     priority = servers[j].priority;
                                 }
 
+                    //lowest server priority data
                     var lowestServer = {
                         url: lowestServerUrl,
                         priority: priority

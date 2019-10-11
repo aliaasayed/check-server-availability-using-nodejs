@@ -1,6 +1,6 @@
 const express = require("express");
 const server = express();
-var timeout = require('connect-timeout');
+const timeout = require('connect-timeout');
 
 server.use(function (req, res, next) {
   res.header("Access-Control-Allow-Origin", "*");
