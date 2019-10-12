@@ -9,8 +9,8 @@ https://github.com/aliaasayed/server-availability-using-nodejs.git
 ```
 2- run app: 
 
-    # first install dependencies using "npm i"
-    # then start the server using "npm start"
+    # install dependencies using "npm i"
+    # start the server using "npm start"
 
 3- send get request to http://localhost:3000/find/server
 
