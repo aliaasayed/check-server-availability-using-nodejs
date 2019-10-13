@@ -5,7 +5,7 @@ simple node module to check if a list of servers is on
 
 1- clone project:
 ```bash
-https://github.com/aliaasayed/server-availability-using-nodejs.git
+git clone https://github.com/aliaasayed/server-availability-using-nodejs.git
 ```
 2- run app: 
 
