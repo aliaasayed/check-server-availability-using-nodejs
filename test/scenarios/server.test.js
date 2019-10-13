@@ -7,7 +7,7 @@ describe("Check avilability of list of servers", function () {
         request(app)
             .get('/find/server')
             .expect(function (res) {
-                expect(res.body.statusCode).toBe(200);
+                expect(res.status).toBe(200);
                 expect(res.body.data.url).toBeDefined();
                 expect(res.body.data.priority).toBeDefined();
             })
