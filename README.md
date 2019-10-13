@@ -14,7 +14,7 @@ git clone https://github.com/aliaasayed/server-availability-using-nodejs.git
 
 3- send get request to http://localhost:3000/find/server
 
-4- run unit test by running this command
+4- run unit test by running this command:
 ```bash
 npm test
 ```
